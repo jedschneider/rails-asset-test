@@ -1,10 +1,3 @@
-GIT
-  remote: git://github.com/plataformatec/responders.git
-  revision: 79e49601791edbafa26fa2bda77b205f0ea07d7a
-  specs:
-    responders (2.1.0)
-      railties (>= 4.2.0, < 5)
-
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -182,6 +175,8 @@ GEM
       thor (>= 0.18.1, < 2.0)
     raindrops (0.13.0)
     rake (10.4.2)
+    responders (2.1.0)
+      railties (>= 4.2.0, < 5)
     rspec-core (3.1.7)
       rspec-support (~> 3.1.0)
     rspec-expectations (3.1.2)
@@ -280,7 +275,7 @@ DEPENDENCIES
   rails (~> 4.2)
   rails-assets-nerdbox!
   rails-erd
-  responders!
+  responders
   rspec-rails
   sass-rails (~> 4.0.3)
   selenium-webdriver

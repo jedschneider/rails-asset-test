@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 
 gem 'rails', '~> 4.2'
-gem 'responders', github: 'plataformatec/responders'
+gem 'responders'
 gem 'pg'
 gem 'rails-erd'
 
