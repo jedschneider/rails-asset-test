@@ -10,8 +10,9 @@ before_install:
 before_script:
 - cp config/database.travis.yml config/database.yml
 - cp .env.example .env
+install:
+  rvm @global do gem uninstall bundler -x && gem install bundler -v '~> 1.7' && bundle install
 script:
-- gem install bundler --version '1.7'
 - bundle install
 - bundle exec rake db:drop:all
 - bundle exec rake db:create:all
